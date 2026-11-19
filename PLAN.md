@@ -4,12 +4,17 @@ Complete this in your own words before asking an assistant to implement a compon
 
 ## 1. Choose and observe
 
-- Business name and town:
-- Original website URL and date visited:
-- Why this is a suitable independent local business:
-- Reference screenshot(s): save under `reference/` and link here.
-- What a visitor most needs to do:
+- Business name and town: Industrial Motions Engineering, Wilmington MA
+- Original website URL and date visited: Accessed November 18, 2026, [Link](https://industrialmotions.com/)
+- Why this is a suitable independent local business: Because Angel works there, and because Angel and Hillary decided together that the ebsite homepage could be improved
+- Reference screenshot(s): [Original homepage](reference/original-homepage.png)
+- What a visitor most needs to do: The visiors need to get products fix on time
 - Existing branding: logo, colors (hex codes), typography, images:
+Images: Wheel, Shield, Trianguler ruler and protractor, saw machine, and a circle aroung the wheel
+Typography: font-family: 'Unica One', cursive; for H1, font-family: 'Titillium Web'; for p, margin as well
+Colors: black, #2C9DF4, #f5f5f5.
+Logo: 
+
 - What works in the original:
 - Specific opportunities for a significant upgrade (hierarchy, typography, spacing, navigation, or finding key information):
 
