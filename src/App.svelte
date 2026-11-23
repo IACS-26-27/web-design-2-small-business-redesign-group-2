@@ -6,6 +6,7 @@
 <!-- Instructor starter, drafted with OpenAI Codex: a neutral placeholder, not a business design. -->
 <main>
   <h1>Your local business, built from components</h1>
+  <p> Im cool</p>
   <p>
     Read README.md, choose your business, and complete PLAN.md before building.
   </p>
