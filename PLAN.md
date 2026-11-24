@@ -31,14 +31,15 @@ Define at least three meaningful components. Add rows as needed; use names appro
 |`src/lib/OurPhilosophyQuote.svelte`|Talks about what the compny believes in and its goal | `quote="", author="Joe Fustolo, Jr., Owner"`| `App.svelte`| No
 
 - Which component contains which? Add a small component tree: 
-
-├── 
-├── 
-│   └── 
-└── 
-    └── 
+Website
+├── Header
+├── The Process
+│   └── ProcessItem(one item per process)
+└── Author
 - Which component will appear multiple times (at least twice) with different props?
+src/lib/ProcessStepCard - 6 times
 - What belongs in its props? What should stay in the component's shared markup and styles?
+The props are the titles, the button circles, the descriptions, and an image beside it.
 - First component I will build, and why:
 
 ## 3. Build, test, revise
