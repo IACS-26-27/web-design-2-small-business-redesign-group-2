@@ -4,28 +4,33 @@ Complete this in your own words before asking an assistant to implement a compon
 
 ## 1. Choose and observe
 
-- Business name and town:
-- Original website URL and date visited:
-- Why this is a suitable independent local business:
-- Reference screenshot(s): save under `reference/` and link here.
-- What a visitor most needs to do:
+- Business name and town: Industrial Motions Engineering, Wilmington MA
+- Original website URL and date visited: Accessed November 18, 2026, [Link](https://industrialmotions.com/)
+- Why this is a suitable independent local business: Because Angel works there, and because Angel and Hillary decided together that the ebsite homepage could be improved
+- Reference screenshot(s): [Original homepage](reference/original-homepage.png)
+- What a visitor most needs to do: The visiors need to get products fix on time
 - Existing branding: logo, colors (hex codes), typography, images:
+Images: Wheel, Shield, Trianguler ruler and protractor, saw machine, and a circle aroung the wheel
+Typography: font-family: 'Unica One', cursive; for H1, font-family: 'Titillium Web'; for p, margin as well
+Colors: black, #2C9DF4, #f5f5f5.
+Logo: 
+
 - What works in the original:
 - Specific opportunities for a significant upgrade (hierarchy, typography, spacing, navigation, or finding key information):
 
 ## 2. Sketch and define components
 
 Add or link a labeled sketch. Show both phone and laptop layouts.
-
+![WIREFRAME skecth](reference/screenshot.jpeg)
 Define at least three meaningful components. Add rows as needed; use names appropriate to your business.
 
 | Component/file | Responsibility | Props (names and example values) | Where used / parent | Repeated? |
 | --- | --- | --- | --- | --- |
-| | | | | |
-| | | | | |
-| | | | | |
+| `src/lib/ProcessStepCard.svelte` | Displays one manufacturing process step with a badge/circle, heading, description, and photo | `stepNumber="1"`, `title="Concept"`, `description="..."`, `imageSrc="..."`,| `App.svelte` | 6 times |
+|`src/lib/SiteHeader.svelte`| Shows the company's logo |`logoSrc="images/ime-logo.png"`, `businessname="Industrial Motions Engineering"` |` App.svelte` | No
+|`src/lib/OurPhilosophyQuote.svelte`|Talks about what the compny believes in and its goal | `quote="", author="Joe Fustolo, Jr., Owner"`| `App.svelte`| 
 
-- Which component contains which? Add a small component tree:
+- Which component contains which? Add a small component tree: 
 - Which component will appear multiple times (at least twice) with different props?
 - What belongs in its props? What should stay in the component's shared markup and styles?
 - First component I will build, and why:
