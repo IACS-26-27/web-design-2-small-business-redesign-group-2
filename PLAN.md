@@ -21,13 +21,13 @@ Logo:
 ## 2. Sketch and define components
 
 Add or link a labeled sketch. Show both phone and laptop layouts.
-
+![WIREFRAME skecth](reference/screenshot.jpeg)
 Define at least three meaningful components. Add rows as needed; use names appropriate to your business.
 
 | Component/file | Responsibility | Props (names and example values) | Where used / parent | Repeated? |
 | --- | --- | --- | --- | --- |
-| | | | | |
-| | | | | |
+| `src/lib/ProcessStepCard.svelte` | Displays one manufacturing process step with a badge/circle, heading, description, and photo | `stepNumber="1"`, `title="Concept"`, `description="..."`, `imageSrc="..."`, `imageAlt="..."` | `App.svelte` | 6 times |
+
 | | | | | |
 
 - Which component contains which? Add a small component tree:
