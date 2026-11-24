@@ -31,12 +31,12 @@ Define at least three meaningful components. Add rows as needed; use names appro
 |`src/lib/OurPhilosophyQuote.svelte`|Talks about what the compny believes in and its goal | `quote="", author="Joe Fustolo, Jr., Owner"`| `App.svelte`| No
 
 - Which component contains which? Add a small component tree: 
-App
-├── Header
+
 ├── 
-│   └── MenuItem (one instance per item)
-└── Footer
-    └── ContactInfo
+├── 
+│   └── 
+└── 
+    └── 
 - Which component will appear multiple times (at least twice) with different props?
 - What belongs in its props? What should stay in the component's shared markup and styles?
 - First component I will build, and why:
