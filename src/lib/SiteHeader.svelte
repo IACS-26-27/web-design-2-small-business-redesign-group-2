@@ -1,0 +1,1 @@
+import screenshot2 from './screenshot2

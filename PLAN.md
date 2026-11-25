@@ -21,7 +21,7 @@ Logo:
 ## 2. Sketch and define components
 
 Add or link a labeled sketch. Show both phone and laptop layouts.
-![WIREFRAME skecth](reference/screenshot.jpeg)
+![WIREFRAME sketch](reference/screenshot.jpeg)
 Define at least three meaningful components. Add rows as needed; use names appropriate to your business.
 
 | Component/file | Responsibility | Props (names and example values) | Where used / parent | Repeated? |
@@ -48,7 +48,7 @@ The props are the titles, the button circles, the descriptions, and an image bes
 - One change to a component that updated every instance:
 - Phone and laptop checks (record at least two widths, problems, and revisions):
 - Keyboard check:
-- Before-and-after screenshots (link here):
+- Before-and-after screenshots (link here):[Original homepage](reference/original-homepage.png) and [New homepage]
 - Specific improvements over the original and how they help visitors:
 - Partner feedback and what I changed:
 - One component and its props, explained in my own words:
