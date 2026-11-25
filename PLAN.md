@@ -40,7 +40,7 @@ Website
 src/lib/ProcessStepCard - 6 times
 - What belongs in its props? What should stay in the component's shared markup and styles?
 The props are the titles, the button circles, the descriptions, and an image beside it.
-- First component I will build, and why:
+- First component I will build, and why: I will build the src/lib/ProcessStepCard because it has the most components. And also because it's the biggest chunk of our layout.
 
 ## 3. Build, test, revise
 
