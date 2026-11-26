@@ -1,19 +1,19 @@
 <script>
-import SiteHeader from './lib./SiteHeader.svelte';
-import ProcessStepCard from './lib/ProcessStepCard.svelte';
-import OurPhilosophyQuote from './lib/OurPhilosophyQuote';
+import SiteHeader from './lib/SiteHeader.svelte';
+  import ProcessStepCard from './lib/ProcessStepCard.svelte';
+  import OurPhilosphyQuote from './lib/OurPhilosphyQuote.svelte';
 </script>
 
 <!-- Instructor starter, drafted with OpenAI Codex: a neutral placeholder, not a business design. -->
 <main>
-  <h1>Your local business, built from components</h1>
+<header>
+  <img src="screenshot2.png" alt="Industrial Motions Engineering logo" />
+</header>
   <p>
     Read README.md, choose your business, and complete PLAN.md before building.
   </p>
   <section aria-labelledby="example-heading">
-  <header>
-  <img src="screenshot2.png" alt="Industrial Motions Engineering logo" />
-</header>
+  
   </section>
   <p>Replace this example with the first component from your own plan.</p>
   <p><a href="citations.html">Sources and AI acknowledgments</a></p>
